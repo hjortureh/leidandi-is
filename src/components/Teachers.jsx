@@ -26,9 +26,9 @@ const Teachers = () => {
                 <Teacher
                     name="Hjörtur Elvar Hilmarsson"
                     description={[
-                        "Hjörtur er framkvæmdastjóri hönnunar- og tæknistofunnar 14islands sem vinnur fyrir alþjóðleg fyrirtæki á borð við Google, Spotify og Cartier. Með yfir 20 ára reynslu af stjórnun og hugbúnaðarþróun hefur hann leitt fyrirtækið í fremstu röð á sviði stafrænnar upplifunar.",
-                        "Sérsvið Hjartar er að hjálpa fyrirtækjum að vaxa með krafti hönnunar og tækni. Undanfarið hefur hann stutt við nýsköpun á sviði gervigreindar, og sjálfur nýtir hann gervigreind daglega í sínum störfum til að straumlínulaga rekstur og hámarka afköst.",
-                        "Hjörtur var einnig deildarstjóri við Harbour.Space háskólann í Barcelona, þar sem hann miðlaði tæknilega reynslu og kenndi nemendum flókin umfangsefni á lifandi og árangursríkan hátt."
+                        "Hjörtur er framkvæmdastjóri 14islands, hönnunar- og tæknistofu sem hefur skapað sér virðingu á alþjóðamarkaði og unnið fyrir leiðandi vörumerki á borð við Google, Spotify og Cartier. Með yfir 20 ára reynslu í stjórnun og hugbúnaðarþróun hefur hann aðstoðað fyrirtæki í fremstu röð á sviði stafrænnar upplifunar.",
+                        "Undanfarið hefur Hjörtur lagt þunga áherslu á nýsköpun á sviði gervigreindar í rekstri. Hann notar gervigreind daglega í sínu starfi til að straumlínulaga verkferla og hámarka afköst.",
+                        "Hjörtur starfaði einnig sem deildarstjóri við háskólan Harbour.Space í Barcelona ásamt kennslu, þar miðlaði hann flóknum viðfangsefnum til nemenda á lifandi og árangursríkan hátt."
                     ]}
                     image="/assets/hjortur.jpg"
                 />
