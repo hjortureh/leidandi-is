@@ -1,0 +1,41 @@
+.about-section {
+    background-color: var(--color-secondary);
+}
+
+.about-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.about-block {
+    margin-bottom: var(--spacing-lg);
+}
+
+.about-block:last-child {
+    margin-bottom: 0;
+}
+
+.about-list {
+    list-style: none;
+    padding-left: 0;
+    margin: var(--spacing-sm) 0;
+}
+
+.about-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--color-accent);
+}
+
+.emphasis {
+    font-weight: 600;
+    font-style: italic;
+    margin-top: var(--spacing-sm);
+}

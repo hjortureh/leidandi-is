@@ -1,0 +1,13 @@
+.course-info-section {
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-lg);
+}
+
+.course-info-content {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.course-info-content p {
+    margin-bottom: var(--spacing-xs);
+}

@@ -1,0 +1,47 @@
+.hero-section {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--spacing-xl);
+    padding-bottom: 0;
+}
+
+.hero-title {
+    font-size: 4rem;
+    margin-bottom: var(--spacing-md);
+    font-weight: 400;
+    letter-spacing: -0.03em;
+}
+
+.hero-letter {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto var(--spacing-lg);
+    font-family: var(--font-heading);
+    /* Using serif for the "letter" feel */
+    font-style: italic;
+    color: #444;
+}
+
+.hero-subtitle {
+    font-weight: 400;
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text);
+    font-style: normal;
+    font-family: var(--font-body);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--spacing-md);
+}
+
+.hero-cta {
+    margin-top: var(--spacing-lg);
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+}

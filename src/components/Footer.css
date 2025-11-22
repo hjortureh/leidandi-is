@@ -1,0 +1,14 @@
+.footer-section {
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+}
+
+.footer-cta {
+    margin-bottom: var(--spacing-lg);
+}
+
+.footer-ai-notice {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: var(--spacing-md);
+}
