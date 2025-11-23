@@ -66,7 +66,7 @@ const Schedule = () => {
         <Section className="schedule-section">
             <h2 className="text-center">Dagskrá</h2>
             <p className="schedule-intro text-center">
-                Námskeiðið hefst 4 febrúar 2025 og er fjóra miðvikudaga í röð frá klukkan 18 til 21.
+                Námskeiðið hefst 4. febrúar 2026 og er fjóra miðvikudaga í röð frá klukkan 18 til 21.
             </p>
             <div className="schedule-list">
                 {evenings.map((evening, index) => (
