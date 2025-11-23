@@ -33,7 +33,7 @@ const Schedule = () => {
             subtitle: "Þú byrjar að spara tíma með sniðmátum, myndvinnslu, og sjálfvirkni",
             description: "Nú förum við inn í beinan rekstur og daglega vinnu. Þú kemur með raunverulegt efni úr eigin starfi og byggir upp þín eigin sniðmát.",
             points: [
-                "Hvernig á að búa til sniðmát fyrir endurtekið efni til dæmis tilboð samninga markaðsefni og tölvupóst",
+                "Hvernig á að búa til sniðmát fyrir endurtekið efni til dæmis tilboð, samninga, markaðsefni og tölvupóst",
                 "Hvernig á að nota gervigreind til að búa til og betrumbæta prófílmyndir og annað myndefni",
                 "Hvað sjálfvirknivæðing getur gert fyrir þig til dæmis einföld flæði sem spara tíma og lágmarka handavinnu"
             ]
@@ -41,21 +41,21 @@ const Schedule = () => {
         {
             title: "Kvöld 3",
             subtitle: "Þú notar gervigreind sem strategískan ráðgjafa",
-            description: "Hér förum við upp á planinu og vinnum með stefnu og framtíðarsýn. Þú kemur með þína eigin stefnu, hugmynd eða áskorun og vinnur beint með henni.",
+            description: "Hér förum við upp á annað plan og vinnum með stefnu og framtíðarsýn. Þú kemur með þína eigin stefnu, hugmynd eða áskorun og vinnur beint með henni.",
             points: [
                 "Hvernig á að setja fram samhengi og gögn þannig að gervigreind verði betri ráðgjafi",
-                "Hvernig á að móta framtíðarstefnu með gervigreind sem sparringsfélaga",
+                "Hvernig á að móta framtíðarstefnu með gervigreind til aðstoðar",
                 "Hvernig á að fá gagnrýna og skapandi hugsun í stað flata svara"
             ]
         },
         {
             title: "Kvöld 4",
-            subtitle: "Þú átt skýrari sýn á framtíðina áhættu og næstu skref",
-            description: "Í loka kvöldinu horfum við fram á við og tengjum allt saman.",
+            subtitle: "Þú færð skýrari sýn á framtíðina",
+            description: "Á lokakvöldinu horfum við fram á við og tengjum allt saman.",
             points: [
-                "Hvernig framtíð vinnu og stýrikerfa gæti litið út þegar þjónusta og kerfi tengjast gervigreind",
+                "Hvernig framtíð vinnu litið út þegar önnur kerfi tengjast gervigreind",
                 "Hvert hlutverk vélmenna og sjálfvirkra kerfa gæti orðið í þínu umhverfi",
-                "Hvað stjórnendur þurfa að vita um öryggi trúnað og áhættustýringu í tengslum við gervigreind",
+                "Hvað stjórnendur þurfa að vita um öryggi áhættur í tengslum við gervigreind",
                 "Hvert næsta skref er fyrir þig persónulega og fyrir þitt fyrirtæki",
                 "Við endum á samantekt, umræðum, vottorðum og smá fögnuði 🎉"
             ]
