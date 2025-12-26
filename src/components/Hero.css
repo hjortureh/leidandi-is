@@ -7,6 +7,21 @@
     padding-bottom: 0;
 }
 
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-xl);
+    align-items: center;
+    width: 100%;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
 .hero-title {
     font-size: 4rem;
     margin-bottom: var(--spacing-md);
@@ -16,8 +31,7 @@
 
 .hero-letter {
     font-size: 1.25rem;
-    max-width: 600px;
-    margin: 0 auto var(--spacing-lg);
+    margin: 0 0 var(--spacing-lg);
     font-family: var(--font-heading);
     /* Using serif for the "letter" feel */
     font-style: italic;
@@ -40,8 +54,38 @@
     margin-top: var(--spacing-lg);
 }
 
+.hero-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    aspect-ratio: 3/4;
+}
+
 @media (max-width: 768px) {
+    .hero-container {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+
+    .hero-content {
+        align-items: center;
+        text-align: center;
+    }
+
     .hero-title {
         font-size: 2.5rem;
+    }
+
+    .hero-images {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin: 0 auto;
     }
 }
